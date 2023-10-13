@@ -1,5 +1,29 @@
-# Api-Rest Application
-<p>Nesse projeto foi utilizado meus conhecimentos em <strong>Javasript</strong>, <strong>mySQL</strong> e <strong>NodeJS</strong> para fazer a aplicação descrita abaixo.</h1>
-<p>Nessa aplicação foi feito uma api rest basedado em um sistema de escola.</p>
-<p>A aplicação possui sistema de registro e login, com token de autenticação e CRUD de usuários.</p>
-<p>Com o usuário logado pode ser feito um CRUD dos alunos e cada aluno pode fazer upload de fotos.</p>
+## Api-Rest Application
+This application is an API for your own consumption, in the school-app project.
+
+## Functionalities
+- User login and registration system on different routes.
+- Created a home page where the logged in user can view, create, edit and delete students.
+- If the user tries to perform any action without being logged in, they will be redirected to the login page, allowing them to log in or register.
+- Each student has a photo, which is displayed along with their details on the home page. The logged in user can upload or edit student photos.
+- The user will be able to edit their data, name, email and password, if they change their email, their authentication token will be changed and they will be logged out.
+- Used jsonwebtoken for login and bcrypt for encrypting password in database.
+
+## Tecnologias utilizadas
+- **Backend:** Node.js, Express.js
+- **DataBase:** MariaDB
+
+## Aplicativo Api-Rest
+Esta aplicação é uma API para consumo próprio, no projeto school-app.
+
+## Funcionalidades
+- Sistema de login e cadastro de usuários em diferentes rotas.
+- Criada uma página inicial onde o usuário logado pode visualizar, criar, editar e excluir alunos.
+- Caso o usuário tente realizar alguma ação sem estar logado, será redirecionado para a página de login, permitindo o login ou cadastro.
+- Cada aluno possui uma foto, que é exibida junto com seus dados na página inicial. O usuário logado pode fazer upload ou editar fotos dos alunos.
+- O usuário poderá editar seus dados, nome, e-mail e senha, caso altere seu e-mail, seu token de autenticação será alterado e ele será desconectado.
+- Utilizado jsonwebtoken para login e bcrypt para criptografia de senha no banco de dados.
+
+## Tecnologias utilizadas
+- **Back-end:** Node.js, Express.js
+- **Banco de dados:** MariaDB
